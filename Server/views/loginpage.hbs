@@ -1,0 +1,16 @@
+<form class="row g-3 needs-validation" method="POST" action="/userlogin">
+
+<div class="form-floating mb-6" style="margin-bottom: 30px;">
+        <input type="email" class="form-control" id="floatingInput" value="{{this.email}}" placeholder="email" name="email"> 
+        <label for="floatingInput">Email</label>
+</div>
+
+<div class="form-floating mb-6" style="margin-bottom: 30px;">
+    <input type="password" class="form-control" id="floatingInput" value="{{this.password}}" placeholder="Password" name="password"> 
+    <label for="floatingInput">Password</label>
+</div>
+
+<div class="col-12 d-grid">
+    <button class="btn btn-primary" type="submit">Login</button>
+</div>
+</form>
